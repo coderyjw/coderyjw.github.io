@@ -21,20 +21,20 @@
 
  ***/
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800|Work+Sans:400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800|Work+Sans:400,500,700");
 
 /*font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;*/
 
-@import url('font-awesome.css');
-@import url('flaticon.css');
-@import url('animate.css');
-@import url('owl.css');
-@import url('jquery-ui.css');
-@import url('jquery.fancybox.min.css');
-@import url('jquery.mCustomScrollbar.min.css');
-@import url('custom-animate.css');
-@import url('multi-scroll.css');
+@import url("font-awesome.css");
+@import url("flaticon.css");
+@import url("animate.css");
+@import url("owl.css");
+@import url("jquery-ui.css");
+@import url("jquery.fancybox.min.css");
+@import url("jquery.mCustomScrollbar.min.css");
+@import url("custom-animate.css");
+@import url("multi-scroll.css");
 
 /*** 
 
@@ -67,7 +67,7 @@ body {
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 a {
@@ -94,7 +94,7 @@ h6 {
   background: none;
   margin: 0px;
   line-height: 1.6em;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 textarea {
@@ -145,7 +145,6 @@ p {
   background-image: url(../images/icons/line.png);
 }
 
-
 ul,
 li {
   list-style: none;
@@ -159,7 +158,7 @@ li {
 
 .theme-btn {
   display: inline-block;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -177,7 +176,7 @@ li {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
@@ -201,7 +200,7 @@ li {
   color: #222;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
@@ -216,7 +215,6 @@ li {
   background: #9147ff;
   border-color: #9147ff;
 }
-
 
 /*Social Icon One*/
 
@@ -261,7 +259,7 @@ li {
   border: 1px solid #dbdbdb;
   display: inline-block;
   border-radius: 50%;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .social-icon-two li a:hover {
@@ -357,7 +355,6 @@ img {
   bottom: 50px;
 }
 
-
 .card-outer {
   position: fixed;
   display: flex;
@@ -375,7 +372,6 @@ img {
   position: relative;
 }
 
-
 /*** 
 
 ====================================================================
@@ -391,7 +387,7 @@ img {
   bottom: 0;
   background-color: #f8e9e9;
   border-radius: 5px;
-  transition: .5s ease;
+  transition: 0.5s ease;
   z-index: 99;
   overflow: hidden;
 }
@@ -434,21 +430,21 @@ img {
 
   display: block;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #f8e9e9;
   z-index: 99;
 }
 
 .header ul li:before {
   position: absolute;
-  content: '';
+  content: "";
   background-color: #9147ff;
   height: 50px;
   width: 50px;
   right: 10px;
   top: 15px;
   transform: rotate(45deg);
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .header ul li.active:before {
@@ -532,7 +528,7 @@ i.fa {
 }
 
 .card-outer .card-inner-box.offsetleft {
-  transition: .5s ease;
+  transition: 0.5s ease;
   transform: translate(350px);
 }
 
@@ -561,7 +557,7 @@ i.fa {
 .card-item .card-inner {
   padding-top: 10px;
   height: 100%;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .card-inner-box .card-home {
@@ -598,7 +594,7 @@ i.fa {
 }
 
 .card-home .image img {
-  border: 5px solid rgba(31, 53, 67, 0.10);
+  border: 5px solid rgba(31, 53, 67, 0.1);
   border-radius: 50%;
 }
 
@@ -608,7 +604,7 @@ i.fa {
 }
 
 .card-home .author .designation {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   margin-bottom: 25px;
   color: #222;
@@ -620,6 +616,11 @@ i.fa {
   margin: 0 auto;
   margin-bottom: 25px;
   color: #222;
+  text-align: left;
+}
+
+.card-home .text ol li {
+  list-style-type: decimal;
 }
 
 .card-home .link-btn {
@@ -657,7 +658,7 @@ i.fa {
 }
 
 .author-info .image img {
-  border: 5px solid rgba(31, 53, 67, 0.10);
+  border: 5px solid rgba(31, 53, 67, 0.1);
   border-radius: 50%;
 }
 
@@ -667,7 +668,7 @@ i.fa {
 }
 
 .author-info .author .designation {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   margin-bottom: 30px;
   color: #222;
@@ -779,7 +780,7 @@ i.fa {
   color: #222222;
   font-weight: 400;
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   margin-top: 5px;
 }
 
@@ -800,7 +801,6 @@ i.fa {
   font-weight: 300;
   margin-top: 15px;
 }
-
 
 /*** 
 
@@ -836,7 +836,7 @@ i.fa {
 }
 
 .card-resume .timeline-column .inner:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 12px;
   top: 6px;
@@ -879,7 +879,6 @@ i.fa {
   color: #1e1e1e;
 }
 
-
 .card-resume .timeline-column .col-header .icon-box .icon {
   position: relative;
   display: block;
@@ -914,7 +913,7 @@ i.fa {
   font-size: 14px;
   color: #222;
   font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .card-resume .timeline-column .timeline-block .date span {
@@ -930,7 +929,7 @@ i.fa {
 }
 
 .card-resume .timeline-column .timeline-block h4:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -37px;
   top: 4px;
@@ -957,8 +956,6 @@ i.fa {
 .card-resume .timeline-column .timeline-block .qrcode {
   text-align: left;
 }
-
-
 
 /*** 
 
@@ -1005,7 +1002,7 @@ i.fa {
   border: 1px solid #e5e5e5;
   font-size: 34px;
   border-radius: 50%;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .services-block .icon-box span {
@@ -1019,7 +1016,7 @@ i.fa {
 
 .services-block .icon-box:before {
   position: absolute;
-  content: '';
+  content: "";
   background-color: #9147ff;
   left: 0;
   top: 0;
@@ -1027,7 +1024,7 @@ i.fa {
   right: 0;
   border-radius: 50%;
   transform: scale(0);
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .services-block:hover .icon-box:before {
@@ -1038,7 +1035,6 @@ i.fa {
   position: relative;
   font-size: 18px;
   margin-bottom: 10px;
-
 }
 
 .services-block h4 a {
@@ -1058,7 +1054,6 @@ i.fa {
 .services-block .text {
   margin-bottom: 10px;
 }
-
 
 /*** 
 
@@ -1093,7 +1088,7 @@ i.fa {
 
 .projects-block .image img {
   width: 100%;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .projects-block:hover .image img {
@@ -1101,7 +1096,7 @@ i.fa {
 }
 
 .projects-block .image::before {
-  background: rgba(145, 71, 255, 0.90);
+  background: rgba(145, 71, 255, 0.9);
   bottom: 0px;
   content: "";
   left: 0px;
@@ -1139,7 +1134,7 @@ i.fa {
 }
 
 .projects-block .overlay a:hover {
-  background: rgba(255, 255, 255, .8) none repeat scroll 0 0;
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
   color: #000;
 }
 
@@ -1265,7 +1260,6 @@ i.fa {
   width: 100%;
 }
 
-
 .news-block .image:before {
   background: rgba(0, 0, 0, 0.75);
   content: "";
@@ -1287,7 +1281,6 @@ i.fa {
   height: 100%;
 }
 
-
 .news-block .overlay a {
   background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
   border-radius: 50%;
@@ -1304,7 +1297,7 @@ i.fa {
 }
 
 .news-block .overlay a:hover {
-  background: rgba(255, 255, 255, .8) none repeat scroll 0 0;
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
   color: #000;
 }
 
@@ -1560,8 +1553,6 @@ i.fa {
   letter-spacing: 1px;
 }
 
-
-
 /*** 
 
 ====================================================================
@@ -1603,7 +1594,6 @@ i.fa {
   font-size: 15px;
   font-weight: 400;
   padding-left: 45px;
-
 }
 
 .list-style-two li .iconfont {
@@ -1670,7 +1660,6 @@ i.fa {
 .gmnoprint {
   display: none;
 }
-
 
 /*** 
 
@@ -1880,7 +1869,6 @@ i.fa {
   color: #222;
 }
 
-
 /*** 
 
 ====================================================================
@@ -1893,9 +1881,8 @@ i.fa {
   color: #fff;
 }
 
-
 .dark-version .card-about .text {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .dark-version .card-about .list-style-one li strong {
@@ -1903,7 +1890,7 @@ i.fa {
 }
 
 .dark-version .card-about .list-style-one li {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .dark-version .skill-block .graph-outer .count-box {
@@ -1911,7 +1898,7 @@ i.fa {
 }
 
 .dark-version .skill-block h3 {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .dark-version .card-resume .title {
@@ -1927,7 +1914,7 @@ i.fa {
 }
 
 .dark-version .card-resume .timeline-column .timeline-block .text {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .dark-version .card-resume .timeline-column .timeline-block .date {
@@ -1967,7 +1954,7 @@ i.fa {
 }
 
 .dark-version .list-style-two li {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #bubble-canvas {
@@ -1978,7 +1965,6 @@ i.fa {
   top: 0;
   z-index: -1;
 }
-
 
 /*======== Default Version =========*/
 
@@ -2018,8 +2004,6 @@ i.fa {
   margin-right: 10px;
 }
 
-
-
 .skill-info .label {
   display: inline-block;
   padding: 5px 10px;
@@ -2030,22 +2014,21 @@ i.fa {
   vertical-align: baseline;
   border-radius: 5px;
   margin: 0 10px 10px 0;
-
 }
 
-.skill-info .label-info:nth-child(4n+0) {
+.skill-info .label-info:nth-child(4n + 0) {
   background: #9147ff;
 }
 
-.skill-info .label-info:nth-child(4n+1) {
+.skill-info .label-info:nth-child(4n + 1) {
   background: #ff5e7e;
 }
 
-.skill-info .label-info:nth-child(4n+2) {
+.skill-info .label-info:nth-child(4n + 2) {
   background: #ffc713;
 }
 
-.skill-info .label-info:nth-child(4n+2) {
+.skill-info .label-info:nth-child(4n + 2) {
   background: #51dbc3;
 }
 
