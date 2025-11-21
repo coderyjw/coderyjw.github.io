@@ -15,6 +15,11 @@
   <!-- Responsive -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="description" content="叶继伟的前端简历 — 前端工程师，擅长 Vue/React/TypeScript，具备 NodeJS 后端经验。作品包括组件库、企业级后台等。">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Preload local fonts to improve first render -->
+  <link rel="preload" href="fonts/fontawesome-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Flaticon.woff" as="font" type="font/woff" crossorigin>
   <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
   <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
@@ -26,8 +31,8 @@
     <div class="preloader"></div>
 
     <div class="page-background">
-      <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
-      <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
+      <div class="image-1"><img src="images/icons/shape/icon-1.png" alt="" loading="lazy" decoding="async"></div>
+      <div class="image-7"><img src="images/icons/shape/icon-7.png" alt="" loading="lazy" decoding="async"></div>
       <canvas id="canvas"></canvas>
     </div>
 
@@ -36,7 +41,7 @@
       <div class="container">
         <!--Nav Outer-->
         <div class="nav-outer clearfix">
-          <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+          <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" loading="eager" fetchpriority="high" decoding="async"></a></div>
           <!-- Main Menu -->
           <nav class="main-menu">
             <div class="navbar-header">
@@ -71,8 +76,8 @@
       <div class="scroll-box">
         <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
           <div class="card-wrapper">
-            <div class="author-info" >
-              <div class="image"><img src="images/resource/user.jpeg" alt=""></div>
+            <div class="author-info">
+              <div class="image"><img src="images/resource/user.jpeg" alt="" loading="eager" fetchpriority="high" decoding="async"></div>
               <div class="author">
                 <h3>叶继伟</h3>
                 <div class="designation">
@@ -97,7 +102,7 @@
             <div class="card-inner-box">
               <header class="header wow fadeInLeft" data-wow-duration="1.5s">
                 <ul class="main-menu">
-                  <li class="active home"><a class="logo" href="#home"><img src="images/logo.png" alt=""></a></li>
+                  <li class="active home"><a class="logo" href="#home"><img src="images/logo.png" alt="" loading="eager" fetchpriority="high" decoding="async"></a></li>
                   <li><a href="#about"><i class="flaticon-social"></i>个人信息</a></li>
                   <li><a href="#tools"><i class="flaticon-tools"></i>擅长技术</a></li>
                   <li><a href="#resume"><i class="flaticon-curriculum"></i>工作经历</a></li>
@@ -112,7 +117,7 @@
               <div class="card-home card-item active" id="home">
 
                 <div class="card-inner wow fadeInUp" data-wow-duration="2s">
-                  <div class="image"><img src="images/resource/user.jpeg" alt=""></div>
+                  <div class="image"><img src="images/resource/user.jpeg" alt="" loading="lazy" decoding="async"></div>
                   <div class="author">
                     <h3>叶继伟</h3>
                     <div class="designation">
@@ -126,8 +131,10 @@
                     </div>
                   </div>
                   <div class="text">
-                    主攻前端开发，<strong>5年+</strong> 前端开发经验。 带领前端团队利用最新技术解决业务快速发展过程中的各种业务场景问题。 项目包括 <strong>VUE</strong> <strong>PC</strong>/<strong>Moblie</strong>/管理后台。 有 <strong>NodeJS</strong> 开发经验。热衷开源，良好英语读写能力，坚持学习和技术分享。
-                    
+                    主攻前端开发，<strong>5年+</strong> 前端开发经验。 带领前端团队利用最新技术解决业务快速发展过程中的各种业务场景问题。 项目包括 <strong>VUE</strong>
+                    <strong>PC</strong>/<strong>Moblie</strong>/管理后台。 有 <strong>NodeJS</strong>
+                    开发经验。热衷开源，良好英语读写能力，坚持学习和技术分享。
+
                     </p>
                   </div>
                   <div class="link-btn">
@@ -140,7 +147,7 @@
               <!-- end item -->
 
               <!-- card item -->
-              <div class="card-about card-item" id="about" >
+              <div class="card-about card-item" id="about">
                 <div class="card-inner">
                   <h4 class="title">个人信息</h4>
                   <div class="info-list col-md-12">
@@ -149,7 +156,7 @@
                         <ul class="list-style-one">
                           <li><strong>姓名:</strong> 叶继伟</li>
                           <li><strong>微信:</strong> yjw729721503</li>
-                          <li><strong>地址:</strong> 杭州市西湖区 </li>
+                          <li><strong>地址:</strong> 杭州市临平区 </li>
                         </ul>
                       </div>
                       <div class="col-md-6">
@@ -162,23 +169,23 @@
                       </div>
                     </div>
                   </div>
-                
+
                   <div class="education col-md-12">
                     <div class="row">
-                        <h4 class="title">教育背景</h4>
-                        <div class="school">
-                            <img class="logo" src="images/school-logo.jpg" alt="">
-                            <div>
-                              <strong>浙江水利水电学院 ,本科</strong> 软件工程
-                            </div>
-                          </div>
+                      <h4 class="title">教育背景</h4>
+                      <div class="school">
+                        <img class="logo" src="images/school-logo.jpg" alt="" loading="lazy" decoding="async">
+                        <div>
+                          <strong>浙江水利水电学院 ,本科</strong> 软件工程
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- end item -->
               <!-- card item -->
-              <div class="card-about card-item" id="tools" >
+              <div class="card-about card-item" id="tools">
                 <div class="card-inner">
                   <h4 class="title">擅长技术</h4>
                   <div class="col-md-12">
@@ -224,7 +231,7 @@
                     </div>
                     <div class="row">
                       <div class="skill-info">
-                          <h4 class="sub-title">前端:</h4>
+                        <h4 class="sub-title">前端:</h4>
                         <div class="labels">
                           <span class="label label-info">Vue</span>
                           <span class="label label-info">React</span>
@@ -252,7 +259,7 @@
               <!-- end item -->
 
               <!-- card item -->
-              <div class="card-resume card-item" id="resume" >
+              <div class="card-resume card-item" id="resume">
                 <div class="card-inner">
                   <h4 class="title">工作经历</h4>
                   <!--Column-->
@@ -263,35 +270,43 @@
                         <div class="timeline-block">
                           <div class="inner-box">
                             <h4>高级前端工程师</h4>
-                            <div class="date"><span>2024.06-至今</span> /杭州时代银通软件股份有限公司
+                            <div class="date">
+                              <span>2024.06-至今</span> / 杭州时代银通软件股份有限公司
                             </div>
                             <div class="text">
-                              负责中银香港外汇交易模块的前端开发与技术实现，保障核心业务的性能与稳定性。参与日常 Code Review，提升团队代码质量与规范性。自主研究 VitePress 并编写技术文档，完善团队知识体系提高开发效率。构建设计前端自动化部署流程，提升发布效率与交付质量。
+                              负责中银香港外汇交易模块的核心前端开发与技术方案设计，保障高并发场景下的性能与稳定性。主导并参与团队的 Code Review，提升整体代码质量与工程规范度。自主研究并构建
+                              VitePress 文档体系，完善团队内部知识库。搭建并优化前端自动化部署流程，提高发布效率并减少人为操作成本，推动团队工程化能力提升。
                             </div>
                           </div>
                         </div>
+
                         <!--Timeline Block-->
                         <div class="timeline-block">
                           <div class="inner-box">
                             <h4>中级前端工程师</h4>
-                            <div class="date"><span>2021.06-2024.06</span> /广州亚信科技有限公司
+                            <div class="date">
+                              <span>2021.06-2024.06</span> / 广州亚信科技有限公司
                             </div>
                             <div class="text">
-                              负责中国移动相关业务系统的前端开发，涵盖渠道账单、布局地图等核心业务模块。参与 PC 端与移动端界面的开发与适配，实现稳定的业务功能交付。负责基础组件与公共方法的封装与抽离，提高开发效率及组件复用度。与后端及产品配合推进需求落地，确保项目按期上线并保持良好性能与体验。
+                              独立负责中国移动业务系统的前端研发，涵盖渠道账单、布局地图等关键业务模块。承担 PC
+                              与移动端的界面开发与适配，实现稳定的功能交付。负责基础组件及公共方法的封装与抽离，显著提升团队开发效率与代码复用率。积极与后端及产品协作，推动需求落地并确保上线质量与性能表现。
                             </div>
                           </div>
                         </div>
+
                         <!--Timeline Block-->
                         <div class="timeline-block">
                           <div class="inner-box">
                             <h4>初级前端工程师</h4>
-                            <div class="date"><span>2020.04-2021.05</span> /浙江启真科技有限公司
+                            <div class="date">
+                              <span>2020.04-2021.05</span> / 浙江启真科技有限公司
                             </div>
                             <div class="text">
-                            主要从事智慧城市/行业智慧化的相关业务开发，负责搭建项目前端框架，把控前端代码质量。维护现有的项目，进行版本的更新迭代。培养新入职的同事，带其熟悉公司的项目
+                              参与智慧城市及行业智慧化项目的前端开发工作，协助搭建项目基础框架并确保代码质量。负责维护现有系统，进行版本迭代及功能优化。协助团队培训新入职成员，帮助其快速熟悉项目与开发流程，积累团队协作与项目实践经验。
                             </div>
                           </div>
                         </div>
+
                       </div>
                     </div>
 
@@ -300,7 +315,7 @@
               </div>
               <!-- end item -->
               <!-- card item -->
-              <div class="card-resume card-item" id="services" >
+              <div class="card-resume card-item" id="services">
                 <div class="card-inner">
                   <h4 class="title">项目经验</h4>
                   <!--Column-->
@@ -314,7 +329,7 @@
                             <div class="date"> 该项目为亚信集团渠道业务需求汇总，具体业务包含:渠道生意账单、渠道布局、渠道报账、渠道一键学习、 渠道智能摸排、渠道门店活动、渠道附近营业厅等等
                             </div>
                             <div class="text">
-                                <div>技术栈:vue3+elementPlus+axios+pinia+vite</div> 
+                              <div>技术栈:vue3+elementPlus+axios+pinia+vite</div>
                               <ul>
                                 <li>参与需求讨论，制定开发计划，统一项目开发规范(ESLint+Prettier 统一代码规范、Husky + Commitizen
                                   统一提交规范、目录结构、命名等等)</li>
@@ -362,7 +377,7 @@
               </div>
               <!-- end item -->
               <!-- card item -->
-              <div class="card-projects card-item" id="work" >
+              <div class="card-projects card-item" id="work">
                 <div class="card-inner">
                   <h4 class="title">开源项目</h4>
                   <div class="row">
@@ -378,8 +393,8 @@
                     <div class="services-block col-md-12">
                       <div class="inner-box">
                         <div class="icon-box"><span class="icon flaticon-folder"></span></div>
-                        <h4><a href="https://coderyjw.gitee.io/jw-ui-website/">jw-ui <img
-                              src="https://img.shields.io/github/stars/coderyjw/jw-ui.svg?style=social&label=Stars" /></a>
+        <h4><a href="https://coderyjw.gitee.io/jw-ui-website/">jw-ui <img
+          src="https://img.shields.io/github/stars/coderyjw/jw-ui.svg?style=social&label=Stars" loading="lazy" decoding="async" /></a>
                         </h4>
                         <div class="text">一个 Vue3 的组件库。目前拥有 20+组件，包含通用、数据录入、反馈、导航四大模块类型组件。</div>
                       </div>
@@ -392,7 +407,7 @@
                         <div class="text">一个 React 的组件库，目前拥有 10+ 组。</div>
                       </div>
                     </div>
-                    
+
                   </div>
 
                 </div>
@@ -423,18 +438,19 @@
               </div> -->
               <!-- end item -->
               <!-- card item -->
-              <div class="card-blog card-item" id="blog" >
+              <div class="card-blog card-item" id="blog">
                 <div class="card-inner">
                   <h4 class="title">优秀博文</h4>
                   <div class="news-block">
                     <div class="inner-box">
-                      <div class="image"><img src="images/resource/blog-1.webp" alt="">
+                      <div class="image"><img src="images/resource/blog-1.webp" alt="" loading="lazy" decoding="async">
                         <div class="overlay"><a target="blank" class="link-btn"
                             href="https://juejin.cn/post/7052717075168493598"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                       <div class="lower-content">
-                        <h4><a target="blank" href="https://juejin.cn/post/7052717075168493598">一、用 Vue3.2 + Vite2.7 从 0 快速打造一个 UI 组件库</a>
+                        <h4><a target="blank" href="https://juejin.cn/post/7052717075168493598">一、用 Vue3.2 + Vite2.7 从 0
+                            快速打造一个 UI 组件库</a>
                         </h4>
                         <div class="tags">组件库</div>
                       </div>
@@ -442,56 +458,56 @@
                   </div>
                   <div class="news-block">
                     <div class="inner-box">
-                      <div class="image"><img src="images/resource/blog-2.webp" alt="">
+                      <div class="image"><img src="images/resource/blog-2.webp" alt="" loading="lazy" decoding="async">
                         <div class="overlay"><a target="blank" class="link-btn"
                             href="https://juejin.cn/post/7187827491824730171"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                       <div class="lower-content">
                         <h4><a target="blank" href="https://juejin.cn/post/7187827491824730171">
-                          二、vue3 源码学习，实现一个 mini-vue（十二）：diff 算法核心实现</a></h4>
+                            二、vue3 源码学习，实现一个 mini-vue（十二）：diff 算法核心实现</a></h4>
                         <div class="tags">Vue 源码</div>
                       </div>
                     </div>
                   </div>
                   <div class="news-block">
                     <div class="inner-box">
-                      <div class="image"><img src="images/resource/blog-3.webp" alt="">
+                      <div class="image"><img src="images/resource/blog-3.webp" alt="" loading="lazy" decoding="async">
                         <div class="overlay"><a target="blank" class="link-btn"
                             href="https://juejin.cn/post/7208445726905303101"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                       <div class="lower-content">
                         <h4><a target="blank" href="https://juejin.cn/post/7208445726905303101">
-                          三、Echarts 在 Vue 中的最佳实践</a></h4>
+                            三、Echarts 在 Vue 中的最佳实践</a></h4>
                         <div class="tags">Echarts</div>
                       </div>
                     </div>
                   </div>
                   <div class="news-block">
                     <div class="inner-box">
-                      <div class="image"><img src="images/resource/blog-4.png" alt="">
+                      <div class="image"><img src="images/resource/blog-4.png" alt="" loading="lazy" decoding="async">
                         <div class="overlay"><a target="blank" class="link-btn"
                             href="https://juejin.cn/post/7180391305296478263"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                       <div class="lower-content">
                         <h4><a target="blank" href="https://juejin.cn/post/7180391305296478263">
-                          四、大屏适配方案汇总</a></h4>
+                            四、大屏适配方案汇总</a></h4>
                         <div class="tags">大屏</div>
                       </div>
                     </div>
                   </div>
                   <div class="news-block">
                     <div class="inner-box">
-                      <div class="image"><img src="images/resource/blog-5.png" alt="">
+                      <div class="image"><img src="images/resource/blog-5.png" alt="" loading="lazy" decoding="async">
                         <div class="overlay"><a target="blank" class="link-btn"
                             href="https://juejin.cn/post/7181487704025071671"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                       <div class="lower-content">
                         <h4><a target="blank" href="https://juejin.cn/post/7181487704025071671">
-                          五、从 0 搭建配置 React+TS 项目</a></h4>
+                            五、从 0 搭建配置 React+TS 项目</a></h4>
                         <div class="tags">React</div>
                       </div>
                     </div>
@@ -513,23 +529,23 @@
   <!--End pagewrapper-->
 
 
-  <script src="js/jquery.js"></script>
+  <script src="js/jquery.js" defer></script>
 
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-  <script src="js/owl.js"></script>
-  <script src="js/wow.js"></script>
-  <script src="js/appear.js"></script>
-  <script src="js/jquery.fancybox.js"></script>
-  <script src="js/element-in-view.js"></script>
-  <script src="js/knob.js"></script>
-  <script src="js/validate.js"></script>
-  <script src="js/mousemoveparallax.js"></script>
-  <script src="js/pagenav.js"></script>
-  <script src="js/jquery-type.js"></script>
-  <script src="js/jquery.nicescroll.min.js"></script>
-  <script src="js/particle-alone.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/bootstrap.min.js" defer></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js" defer></script>
+  <script src="js/owl.js" defer></script>
+  <script src="js/wow.js" defer></script>
+  <script src="js/appear.js" defer></script>
+  <script src="js/jquery.fancybox.js" defer></script>
+  <script src="js/element-in-view.js" defer></script>
+  <script src="js/knob.js" defer></script>
+  <script src="js/validate.js" defer></script>
+  <script src="js/mousemoveparallax.js" defer></script>
+  <script src="js/pagenav.js" defer></script>
+  <script src="js/jquery-type.js" defer></script>
+  <script src="js/jquery.nicescroll.min.js" defer></script>
+  <script src="js/particle-alone.js" defer></script>
+  <script src="js/script.js" defer></script>
 </body>
 
 </html>
